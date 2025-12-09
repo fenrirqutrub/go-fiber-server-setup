@@ -1,3 +1,25 @@
+go fiber setup
+
+mkdir fiber-crud-api
+cd fiber-crud-api
+
+# Initialize Go module
+go mod init fiber-crud-api
+
+# Install Fiber + MongoDB driver + godotenv
+go get github.com/gofiber/fiber/v2
+go get go.mongodb.org/mongo-driver/mongo
+go get go.mongodb.org/mongo-driver/mongo/options
+go get github.com/joho/godotenv
+
+go install github.com/air-verse/air@latest
+
+
+> add this in  kate .zshrc
+export PATH=$PATH:~/go/bin
+
+
+
 create .env file in home directory and setup it
 id pass from mongodb atlas
 
