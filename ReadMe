@@ -1,0 +1,4 @@
+
+MONGO_URI=mongodb+srv://?????:?????@cluster0.2xq5f1a.mongodb.net/?appName=Cluster0
+
+PORT=5000
