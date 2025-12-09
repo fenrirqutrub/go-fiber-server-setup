@@ -1,4 +1,6 @@
+create .env file in home directory and setup it
+id pass from mongodb atlas
 
-MONGO_URI=mongodb+srv://?????:?????@cluster0.2xq5f1a.mongodb.net/?appName=Cluster0
+MONGO_URI=mongodb+srv://??id???:??pass???@cluster0.2xq5f1a.mongodb.net/?appName=Cluster0
 
 PORT=5000
